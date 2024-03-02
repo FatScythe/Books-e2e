@@ -1,14 +1,13 @@
-## BOOKS
->#### Assessment designed to evaluate the skills and knowledge of a backend engineer, focusing on their proficiency with Node.js.
+# BOOKS
+#### Assessment designed to evaluate the skills and knowledge of a backend engineer, focusing on their proficiency with Node.js and Testing using jest and supertest
 
-#### Name: Abdullahi Fahm Oladayo
 #### Framework ✨ - ExpressJS
 #### Database ✨ - MongoDB
 ---
 
 ### 📚 Getting Started
 
-#### 🛠️ Installation
+## 🛠️ Installation
 1. Clone the project or download zip file
 2. Navigate to the project directory
    ```bash
@@ -242,3 +241,54 @@ describe("GET /books", () => {
   });
 });
 ```
+
+## Assessment for Backend Engineer
+### This assessment is designed to evaluate the skills and knowledge of a backend engineer,focusing on their proficiency with Node.js (ExpressJS or NestJS) and databases (MySql orMongoDB). The candidate can choose to submit their solution using either framework.
+___
+### Objective:
+#### Develop a RESTful API for a simple bookstore application using the chosen framework.
+___
+### Requirements:
+#### Books: Each book should have the following properties:
+*  ID (unique identifier)
+* Title
+* Author
+* Price
+___
+### API Endpoints:
+* GET /books: Retrieve a list of all books.
+* GET /books/:id: Retrieve a specific book by its ID.
+* POST /books: Create a new book.
+* PUT /books/:id: Update an existing book.
+* DELETE /books/:id: Delete a book by its ID.
+### Error Handling:
+* Implement proper error handling for invalid requests and unexpected errors.
+* Return appropriate HTTP status codes and error messages.
+___
+### Documentation:
+* Include basic API documentation (endpoints, request/response format, etc.)
+using either comments within the code or a separate document.
+Evaluation Criteria:
+### Functionality:
+* Completeness and correctness of all required functionalities.
+* Efficiency and performance of the implemented solution.
+### Code Quality:
+* Code readability, maintainability, and adherence to best practices.
+* Proper use of libraries and frameworks.
+* Appropriate use of asynchronous operations.
+### Testing:
+* Presence of unit tests (optional but highly recommended) to ensure code
+functionality and reliability.
+### Documentation:
+* Clarity and completeness of the provided API documentation.
+Additional Considerations:
+### While not mandatory, candidates can implement additional features such as:
+* User authentication and authorization
+* Pagination for large datasets
+* Error logging and monitoring
+#### Encourage candidates to explain their design choices and coding decisions in comments or a separate document.
+### Submission Guidelines:
+1. The candidate should submit a zip file containing their entire project code.
+1. Include a README file with installation instructions and any additional information.
+1. Clearly mention the chosen framework (ExpressJS or NestJS) in the submission.
+1. Clearly mention the chosen database (MySql or MongoDB) in the submission.
